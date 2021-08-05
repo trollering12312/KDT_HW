@@ -16,11 +16,13 @@ const data = [
 let line;
 let amount;
 
+const minPrice = 500
+
 // 사용자 입력 받기
 while(1){
 
     line = prompt('최대 금액을 입력해주세요.');
-    amount = +line; // string -> number
+    amount = Number(line); // string -> number
 
     if(!Number.isNaN(amount)){//num check
         break;
@@ -32,7 +34,7 @@ while(1){
 
 
 // 주어진 금액으로 살 수 있는 가장 비싼 상품을 구함
-const item = getItemByAmount(data, amount);
+const item = getItemByAmount(amount);
 
 const msg = item ? 
     `${amount}원으로 살 수 있는 가장 비싼 상품은 [${item.name}]이고, 가격은 ${item.price}원입니다.` : 
@@ -42,10 +44,10 @@ const msg = item ?
 alert(msg);
 
 // 아래에 getItemByAmount 함수를 작성하세요.
-function getItemByAmount(data, amount){
+function getItemByAmount(amount){
 
     //돈이 부족한 경우
-    if(amount<500)
+    if(amount<minPrice)
         return null;
 
     //살수 있는 항목중 가장 비싼 값 계산
