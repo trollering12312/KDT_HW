@@ -51,36 +51,5 @@ function getItemByAmount(amount){
     console.log(sorted_list)
 
     return sorted_list[sorted_list.length-1]
-
-    // //돈이 부족한 경우
-    // if(amount<minPrice)
-    //     return null;
-
-    // //살수 있는 항목중 가장 비싼 값 계산
-    // tempArray = data.map(arg => +arg.price); //price로만 이루어진 array 생성
-    // result = 0;
-
-    // while(1){
-
-    //     if(tempArray.length === 0){ //array가 텅빔 = 살게 없음
-    //         return ;
-    //     }
-        
-    //     max = Math.max.apply(Math, tempArray);//max를 찾고 보유금과 비교
-
-    //     if(amount >= max){
-    //         result = max;
-    //         break;
-    //     }
-
-    //     //array에서 필요없는 항목 삭제
-    //     tempArray.splice(tempArray.indexOf(max),1)
-
-    // }
-
-    // let _index = data.findIndex(arg => arg.price === result); // result의 index 찾아서 객체 return
-
-    // return data[_index];
-
 }
 
