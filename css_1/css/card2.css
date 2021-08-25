@@ -1,0 +1,240 @@
+@charset 'utf-8';
+/* 웹폰트 설정 */
+
+/* reset */
+body {
+    font:normal 16px 'Roboto', sans-serif;
+	line-height:1.3;
+	color:#666666;
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {font-size:1em;}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+	/* box-sizing: border-box; */
+}
+li {list-style:none;}
+a {text-decoration:none;}
+
+.card_list{
+
+	height: 100%;
+	background-color: #666666;
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+	justify-content: center;
+  align-items: center;
+
+}
+
+
+/* 공통요소 */
+
+.card-wrap{
+	background-color: #fff;
+
+	flex-basis:280px;
+
+	margin: 20px 50px;
+
+  border-radius: 8px;
+  overflow: hidden; /*자식 div가 남아있어서 radius가 적용되지 않는 것 처럼 보임*/
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card1{
+  height: 279px;
+}
+
+.card2{
+  height: 427px;
+}
+
+.card3{
+  height: 375px;
+}
+
+
+.bot-nav{
+	display: flex;
+  
+	justify-content: center;
+	align-items: center;
+  
+	padding: 16px 15px;
+}
+
+.bot-nav h4{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.bot-name{
+  width: 117px;
+  height: 16px;
+
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+
+  margin: 0px 3px;
+}
+
+.bot-message {
+  display: flex;
+  align-items: center;
+
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+.bot-heart{
+	display: flex;
+  align-items: center;
+
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+.top-section{
+
+  height: 76px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
+
+.top-nav{
+
+  display: flex;
+  
+	justify-content: center;
+	align-items: center;
+  
+	padding: 10px;
+
+}
+
+.top-names{
+  width: 175px;
+  height: 33px;
+
+  margin-left: 10px;
+}
+
+.name-top{
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.name-bot{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.bot-section{
+
+  height: 128px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px 10px;
+}
+
+.bot-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color:Gray 1;
+}
+
+.home-button{
+  background: #27AE60;
+  border-radius: 8px;
+
+  width: 29px;
+  height: 12px;
+
+  margin: 0px;
+  padding: 5px 10px;
+
+
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: #FFFFFF;
+}
+
+.home-button h2{
+  margin: 0px 5px;
+}
+
+
+/* card 기본형 */
+
+.title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+
+  margin: 5px 0px;
+}
+
+.writer{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 5px 0px;
+
+  color: #4F4F4F;
+}
+
+/* card avata */
+
+.avatar-wrap-bot{
+	width: 27px;
+	height: 27px;
+}
+
+/* card avata top */
+
+.avatar-wrap-top{
+  width: 39px;
+	height: 39px;
+}
+
