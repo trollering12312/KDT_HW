@@ -61,3 +61,31 @@ div로 박스만 여러개 쌓아 놓은 느낌이였다
 CSS 복합 선택자를 연습하는 과제였다
 
 <br>
+
+## CSS 1
+
+* **목표** : figma를 통해 주어진 예시를 따라서 화면 구현하기
+
+`html` `css`
+
+|예시1|예시2|예시3|
+|:--|:--|:--|
+|![](https://images.velog.io/images/trollering12312/post/f91fad4f-d3f3-4c3a-9c07-08f98a6e6ba9/Base0.png) |![](https://images.velog.io/images/trollering12312/post/23dca8c9-19ba-4e02-ba61-4090fa4f4802/Base1.png)|![](https://images.velog.io/images/trollering12312/post/dabcff62-2939-43fb-add8-5a361a06f9dc/Base2.png)|
+
+* **기간** : 21/08/23~8/26
+
+* **배운점**
+
+1) 요소의 가운데 정렬은 `margin:auto`
+2) text-align 으로 상하 좌우 텍스트 정렬
+3) span의 배경화면으로 이미지를 지정한뒤 padding으로 밀어내 배치하기
+
+* **느낀점**
+
+flex와 position 관련해서 연습할수 있는 프로젝트 였다
+
+모든 요소를 블록요소로 감싸 flex 처리하려고한 나와 달리 가이드 코드는 `span,strong` 같은 다양한 태그를 사용했다
+
+그리고 클래스 이름도 실제 웹의 요소를 따라서 지었다 (heart->like)
+
+css를 할 때 `내가 원하는 것`을 먼저 안다음 `방법`을 찾는게 더 쉬운 방법이란 걸 알았다. 무조건 처음부터 완벽한 레이아웃에 집학하지 말고 만들면서 고치자!
