@@ -114,6 +114,8 @@ CSS 복합 선택자를 연습하는 과제였다
 |:--|:--|:--|
 |![](https://images.velog.io/images/trollering12312/post/d0edc333-f07e-4b0f-84c1-920a9cd644a2/imagestext.png)|![](https://images.velog.io/images/trollering12312/post/07cf3294-99b7-4fe8-8b51-c2d7c65bc680/productlist.png)|![](https://images.velog.io/images/trollering12312/post/c48dd4f0-378b-465d-a218-83928d2c20bf/tab.png)|
 
+* **일자** : 20/08/30
+
 * **배운점**
 
 **2-1)**
@@ -145,6 +147,55 @@ CSS 복합 선택자를 연습하는 과제였다
 **2-3)**
 
 예제를 `float`말고도 `inline-block`요소로 만들어 구현하는 것도 가능
+
+<br>
+
+## CSS 3
+
+`HTML`,`CSS`
+
+* **목표** : 네이버 화면 구현하기
+
+|3-1|3-2|3-3|
+|:--|:--|:--|
+|![](https://images.velog.io/images/trollering12312/post/ddf9ddd7-4c0c-47e1-ad7c-dc63ca565670/todaycast.jpg)|![](https://images.velog.io/images/trollering12312/post/36c7a221-e870-474e-a9f1-cb4ed33825f3/recast.jpg)|![](https://images.velog.io/images/trollering12312/post/7fec4c89-7de6-4aee-a19d-b8a72ec2f824/opencast.png)|
+
+* **일자** : 20/09/01
+
+* **배운것** 
+
+**3-1)**
+
+1) 요소들 같은 간격 띄어 배치하기
+[요소를 동일한 간격으로 배치하는 여러 팁](https://css-tricks.com/equidistant-objects-with-css/)들이 있지만
+
+`float`을 사용하는 가이드 코드에서 제공하는 방법은 그냥 부모의 크기를 잘 고려해 만들라는 것이였다
+
+`flex-box`의 `justify-content:space-between;`으로 간단하게, 되지만 이전에는 힘들게 했을 것이라는게 짐작이되었다
+
+2) [backround-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
+
+제공되는 이미지를 `backround-size`의 `cover, contain`을 이용해 조절해서 사용 가능하다
+
+3) `strong` - 굻은 글씨, `em` - 이탤릭체
+
+4) `absolute`활용 
+
+`absoulte`를 통해 버튼 요소를 감싸는 요소를 배치하고, 내부 요소를 `float`으로 정리하면 유용하다
+
+`absoulte`를 사용하려면 부모가 `static`이면 안되므로 offset없는 `relative`나 다른 postion값을 줘야한다
+
+**3-2)**
+
+가이드 코드와 달랐지만 결과물은 동일했다 - 구현 방법에 정답은 없다
+
+`li`요소 하나하나가 링크여서 `a`로 감싸줘야 했지만 이 예제에선 안했다
+
+**3-3)**
+
+`:first-child`로 nav의 첫번째 요소 선택함 - 실제로는 jQuery로 할듯하다
+
+`strong` - inline 강조, `h1` - block 강조
 
 <br>
 
