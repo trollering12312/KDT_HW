@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko" >
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>page info</title>
+<meta name="robots" content="all" />
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<style type="text/css">
+
+    body{
+        padding: 40px;
+        font-family: arial;
+    }
+
+    .nav{
+        position: relative;
+        width: 775px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 5px 0;
+        border-bottom: solid 2px black;
+    }
+
+    .btn{
+        position: absolute;
+        top:0px;
+        right:20px;
+        color: gray;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .btn > *{
+        float: left;
+        cursor: pointer;
+        width: 16px;
+        height: 16px;
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+
+    .btn > .left-btn{
+        margin-left: 5px;
+        background: url("./images/btn_page_prev.gif") no-repeat;
+        background-size: contain;
+    }
+
+    .btn > .right-btn{
+        background: url("./images/btn_page_next.gif") no-repeat;
+        background-size: contain;
+    }
+
+    .content{
+        width: 775px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .content-left{
+        float: left;
+        width: 394px;
+        margin: 45px 23px;
+    }
+
+    .content-right{
+        border-left: solid gray 1px;
+        float: left;
+        width: 278px;
+        margin: 25px 18px;
+    }
+
+    li{
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    li img{
+        float:left;
+        margin-right: 15px;
+        border:1px solid gainsboro;
+        padding: 1px;
+    }
+
+    li img ~ *{
+        display: block;
+        margin-top: 5px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="nav">
+        <img src="./images/h3_recast.gif">
+        <div class="btn">
+            <span>1/3</span>
+            <button class="left-btn"></button>
+            <button class="right-btn"></button>
+        </div>
+    </div>
+    <div class="content">
+        <ul class="content-left">
+            <li>
+                <img src="./images/temp_77x77.gif">
+                <strong>작가-제목</strong>
+                <em>평가자 | 평가내용</em>
+                <p>내용요약</p>
+            </li>
+            <li>
+                <img src="./images/temp_77x77.gif">
+                <strong>작가-제목</strong>
+                <em>평가자 | 평가내용</em>
+                <p>내용요약</p>
+            </li>
+        </ul>
+        <ul class="content-right">
+            <li>
+                <img src="./images/temp_42x42.gif">
+                <strong>작가-제목</strong>
+                <em>평가자 | 평가내용</em>
+            </li>
+            <li>
+                <img src="./images/temp_42x42.gif">
+                <strong>작가-제목</strong>
+                <em>평가자 | 평가내용</em>
+            </li>
+            <li>
+                <img src="./images/temp_42x42.gif">
+                <strong>작가-제목</strong>
+                <em>평가자 | 평가내용</em>
+            </li>
+        </ul>
+    </div>
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
