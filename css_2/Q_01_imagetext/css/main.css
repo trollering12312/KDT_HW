@@ -1,0 +1,28 @@
+body{
+    padding: 20px;
+}
+
+.content{
+    background-color: rgb(237, 237, 237);
+    padding: 20px;
+}
+
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+
+.content img{ 
+    float: left;
+    display: block;
+    margin-right: 20px;
+}
+
+.content h1{
+    color: #8BB1D1;
+    font-size: 15px;
+    margin-top: 10px;
+}
