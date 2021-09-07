@@ -199,4 +199,22 @@ CSS 복합 선택자를 연습하는 과제였다
 
 <br>
 
+## CSS 4
 
+`HTML`,`CSS`
+
+* **목표** : 네이버 화면 구현하기
+
+![](https://images.velog.io/images/trollering12312/post/1168e3c8-5b6e-4dc4-9614-fe0baadfa1f6/navercast_game.jpg)
+
+* **일자** : 20/09/01
+
+* **배운것** 
+
+이번 예제에서도 `float`으로 띄운 요소들을 **동일간격**으로 배치하는게 어려웠다
+
+매번 px값을 고려해서 한다면 반응형을 구현할 때는 더 복잡할 것이고, 나중에 유지보수 하는 것도 쉽지 않을 것 같다
+
+- - -
+
+이외의 예제들은 [여기](https://jays-blog.tistory.com/entry/Html-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0?category=786994)에 정리되어있다

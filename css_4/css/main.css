@@ -1,0 +1,98 @@
+body{
+    padding: 40px;
+    font-family: arial;
+    font-size: 10px;
+}
+
+.gamecast {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.gamecast >.nav_icon{
+    border: 1px solid gray;
+    overflow: hidden;
+    padding-left: 75px;
+    margin: 0;
+}
+
+.gamecast >.nav_icon > *{
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contents{
+    padding: 10px 20px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.contents > .hot {
+    overflow: hidden;
+}
+
+.contents > .hot > *{
+    float:left;
+    width: 255px;
+}
+
+.contents > .hot > .hot_big{
+    padding: 5px;
+}
+
+.contents > .hot > .hot_small{
+    padding: 8px;
+}
+
+.contents > .hot > .hot_small > *{
+    clear: left;
+}
+
+.contents > .hot > .hot_small > li > img{
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.contents > .today_reco > .title {
+    width: 540px;
+}
+
+.contents > .today_reco > .title > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contents > .today_reco > .list {
+    width: 530px;
+    padding: 5px 0px 5px 10px;
+    overflow: hidden;
+}
+
+
+.contents > .today_reco > .list > *{
+    float: left;
+    margin: 0 5px;
+}
+
+.contents > .more {
+    padding: 5px;
+}
+
+.contents > .more > *{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+.contents > .bot_nav  *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contents > .bot_nav > .page{
+    position: absolute;
+    right: 40px;
+    bottom: 12px;
+}
+
