@@ -218,3 +218,18 @@ CSS 복합 선택자를 연습하는 과제였다
 - - -
 
 이외의 예제들은 [여기](https://jays-blog.tistory.com/entry/Html-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EB%84%A4%EC%9D%B4%EB%B2%84-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0?category=786994)에 정리되어있다
+
+
+<br>
+
+## CS 1
+
+`Python`,`MongoDB`
+
+* **목표** : `Python` 을 활용한  공공 API 데이터 리스트를 `Mongo Cloud DB`에 넣기
+
+* **일자** : 20/09/15
+
+* **배운것** 
+
+python의 여러 패키지들을 활용해  MongoDB를 사용하는 방법을 배웠다
