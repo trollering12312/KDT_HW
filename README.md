@@ -233,3 +233,35 @@ CSS 복합 선택자를 연습하는 과제였다
 * **배운것** 
 
 python의 여러 패키지들을 활용해  MongoDB를 사용하는 방법을 배웠다
+
+
+<br>
+
+## CS 2
+
+`API` , `express`
+
+* **목표** 
+
+1. API 문서 만들어보기
+2. express 사용해보기
+
+* **일자** : 20/10/07
+
+* **배운것** 
+
+1. API
+
+데이터베이스구조를 모르기때문에 정확하게 작성할 수는 없었다
+
+API를 작성할 때는 프론트엔드와 백엔드가 서로 협업해서 데이터의 구조를 상의하며 작성한다고한다
+
+[API 작성 해본 것](https://docs.google.com/document/d/1c0xVSsOElkksH7NKDiOQzAmgtRuSZ384gedMoCiYo5c/edit)
+
+2. express
+
+express의 사용법은 몰라도 서버를 운영하고, GET을 사용해볼 수 있었다
+
+이후 csv 파일을 읽어서 처리해보기도 했다
+
+실습 저장소 : https://github.com/trollering12312/KDT_socket-chat
